@@ -28,7 +28,7 @@ e. To convert it to an ordinary sequence (e.g. for printing),  list(im.getdata()
 3. mazes.py: Contains Maze class which reads from the input image and stores the information in form of nodes.
 4. depthfirst.py : solves the maze using DFS algorithm and stores the path
 5. breadthfirst.py :solves the maze using BFS algorithm and stores the path
-6. 
+6. AstarandGA.ipynb : solves the maze using A* and Genetic algorithms.
 
 # How to run?
 In the solver_main.py file enter the input file path and method you wish to employ and run solver_main.py
