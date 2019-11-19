@@ -15,11 +15,11 @@ The maze format is:
 	The image is taken as input and loaded using PIL (Python Imaging Library)	
 
 3. Input Processing:
-	#a. The image once loaded is processed using Image.getdata() function.
-	b. It returns the contents of this image as a sequence object containing pixel values.
-	c. The sequence object is flattened, so that values for line one follow directly after the values of line zero, and so on.
-	d. The sequence object returned by this method is an internal PIL data type, which only supports certain sequence operations.
-	e. To convert it to an ordinary sequence (e.g. for printing),  list(im.getdata()) is used.
+	1. The image once loaded is processed using Image.getdata() function.
+	2. It returns the contents of this image as a sequence object containing pixel values.
+	3. The sequence object is flattened, so that values for line one follow directly after the values of line zero, and so on.
+	4. The sequence object returned by this method is an internal PIL data type, which only supports certain sequence operations.
+	5. To convert it to an ordinary sequence (e.g. for printing),  list(im.getdata()) is used.
 
 
 # Code Description:
